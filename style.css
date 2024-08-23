@@ -1,0 +1,55 @@
+body {
+    background-color: #1e1e2e; /* Dark Slate Blue */
+}
+
+.text {
+    color: #e0e0e0; /* Light Gray */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#displayTable {
+    display: flex;
+    justify-content: center;
+}
+
+.event-table {
+    width: 80%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: 70px 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #303C6C; /* Slate Blue */
+    border-radius: 5px;
+    background-color: #2a2a40; /* Dark Blue Gray */
+    color: #e0e0e0; /* Light Gray */
+}
+
+.event-table thead {
+    background-color: #303c6c; /* Slate Blue */
+    color: #ffffff; /* White */
+}
+
+.event-table th,
+.event-table td {
+    padding: 12px 15px;
+    border: 1px solid #505050; /* Gray */
+    text-align: left;
+}
+
+.event-table tbody tr {
+    background-color: #2a2a40; /* Dark Blue Gray */
+    transition: background-color 0.3s ease;
+}
+
+.event-table tbody tr:nth-child(even) {
+    background-color: #222237; /* Slightly darker shade for even rows */
+}
+
+.event-table tbody tr:hover {
+    background-color: #444466; /* Muted Dark Slate Blue for hover */
+    color: #ffffff; /* White text on hover */
+}
