@@ -1,3 +1,5 @@
+## Live on Github Pages https://codeshinobi-sarthak.github.io/KeyEvent-Inspector/
+
 # 🕵️KeyEvent Inspector
 
 KeyEvent Inspector is a simple web application that provides real-time insights into keyboard events. Whenever a key is pressed, this app captures and displays detailed information about the event, including the key itself, keycode, code, and various modifier states (e.g., Alt, Ctrl, Shift, Meta).
@@ -29,15 +31,10 @@ KeyEvent Inspector is a simple web application that provides real-time insights 
 
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 
-### Running the App
+### Running the App Locally
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/keyevent-inspector.git
-    ```
-
 2. Open `index.html` in your preferred web browser.
-
 3. Press any key on your keyboard to see the event details in the table.
 
 ## Technologies Used
